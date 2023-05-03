@@ -1,5 +1,4 @@
 <script setup>
-import TopNavbar from '../../components/TopNavbar.vue';
 </script>
 
 <template>
@@ -8,6 +7,8 @@ import TopNavbar from '../../components/TopNavbar.vue';
 <style></style>
 
 <script>
+import TopNavbar from "../../components/TopNavbar.vue";
+
 export default {
     components: {
         TopNavbar
