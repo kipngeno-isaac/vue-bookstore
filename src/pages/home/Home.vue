@@ -1,26 +1,22 @@
 <script setup>
+import TopNavbar from '../../components/TopNavbar.vue';
+import Footer from '../../components/Footer.vue';
+import NewArrivals from '../../components/new-arrivals/NewArrivals.vue';
 </script>
 
-<template>
-    <TopNavbar />
-    <NewArrivals />
-</template>
-
-<style></style>
+<template src="./home.html"></template>
+<style scoped src="./home.css"></style>
 
 <script>
-import TopNavbar from "../../components/TopNavbar.vue";
-import NewArrivals from "../../components/NewArrivals.vue";
-
 export default {
-    components: {
-        TopNavbar,
-        NewArrivals
-    },
-    computed: {},
-    mounted() {},
-    data() {
-        return {};
-    },
+  components: {
+    TopNavbar,
+    Footer
+  },
+
+  data() {
+    return {
+    };
+  }
 };
 </script>
